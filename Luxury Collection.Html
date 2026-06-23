@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Collection</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon"  type="image" href="images.png">
+
+
+</head>
+<body>
+
+    <header>
+         <div class="logo-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTojyj-NbxD7GyeKh7Hktv9baVFmOz9rjQCYg&s" alt="Luxury Fragrance Logo" class="logo">
+     
+        <h1>Luxury Collection</h1>
+          <!-- CART BUTTON - -->
+  <a href="javascript:void(0)" onclick="toggleCart()" class="cart-btn-nav">
+    🛒 Cart <span id="cartCount">0</span>
+  </a>
+</div>
+    </header>
+    <nav>
+    <a href="Index.Html">Home</a>
+    <a href="Women Perfumes.Html">Women Perfumes</a>
+    <a href="Men Perfumes.Html">Men Perfumes</a>
+    <a href="Luxury Collection.Html">luxury Collection</a>
+    <a href="About.Html">About Us</a>
+    <a  href="Contact.Html">Contact</a>
+    
+</nav>
+ <!-- Women Perfumes Section -->
+<section class="perfume-section">
+    <h1 class="section-title">Women Perfumes</h1>
+    <div class="cards">
+
+        <!--card 1-->
+<div class="card">
+    <img src="https://i.pinimg.com/1200x/6f/ec/9a/6fec9ac17c46e8bb64fefed3245f5066.jpg" alt='Rabanne Million Gold'>
+    <h3>Rabanne Million Gold</h3>
+    <p>Rabanne 1 Million Gold — pure luxury with a bold and unforgettable shine.</p>
+    <p class="price">RS. 65,500</p>
+    <button class="cart-btn" onclick="addToCart('Rabanne Million Gold', 65500)">ADD TO CART</button>
+</div>
+
+<!--card 2-->
+<div class="card">
+    <img src="https://i.pinimg.com/736x/24/54/a3/2454a3be8993139baa72d83fbdef4ba1.jpg" alt="YSL Libre">
+    <h3>YSL Libre</h3>
+    <p>Yves Saint Laurent Libre — bold freedom wrapped in timeless elegance.</p>
+    <p class="price">RS. 26,000</p>
+    <button class="cart-btn" onclick="addToCart('YSL Libre', 26000)">ADD TO CART</button>
+</div>
+
+<!--card 3-->
+<div class="card">
+    <img src="https://i.pinimg.com/736x/19/6d/06/196d06de025bcc4b4ceb98f3feebb7bd.jpg" alt="Hermes Barénia">
+    <h3>Hermes Barénia Intense</h3>
+    <p>Hermès Barénia Intense — a deep, elegant fragrance with timeless strength and sophistication.</p>
+    <p class="price">RS. 28,000</p>
+    <button class="cart-btn" onclick="addToCart('Hermes Barénia Intense', 28000)">ADD TO CART</button>
+</div>
+
+<!--card 4-->
+<div class="card">
+    <img src="https://i.pinimg.com/1200x/79/b8/ac/79b8ac9defbab7cb39cd8895558a0195.jpg" alt="Dior Jadore">
+    <h3>Christian Dior J'adore</h3>
+    <p>Dior J'adore — a radiant fragrance of elegance, beauty, and pure femininity.</p>
+    <p class="price">RS. 32,200</p>
+    <button class="cart-btn" onclick="addToCart('Christian Dior J\'adore', 32200)">ADD TO CART</button>
+</div>
+
+<!--card 5-->
+<div class="card">
+    <img src="https://i.pinimg.com/736x/75/ea/21/75ea21f5b65364ffb3ab4c57293394e4.jpg" alt="Replica">
+    <h3>Replica</h3>
+    <p>Maison Margiela Replica — a fragrance that captures memories in every elegant note.</p>
+    <p class="price">RS. 34,000</p>
+    <button class="cart-btn" onclick="addToCart('Replica', 34000)">ADD TO CART</button>
+</div>
+
+<!--card 6-->
+<div class="card">
+    <img src="https://i.pinimg.com/1200x/fe/3c/39/fe3c391939c0b8f7af7abcc64b72d5f1.jpg" alt="Gucci Guilty">
+    <h3>Gucci Guilty</h3>
+    <p>Gucci Guilty — a daring fragrance that captures confidence, passion, and modern elegance.</p>
+    <p class="price">RS. 30,000</p>
+    <button class="cart-btn" onclick="addToCart('Gucci Guilty', 30000)">ADD TO CART</button>
+</div>
+
+<!--card 7-->
+<div class="card">
+    <img src="https://i.pinimg.com/736x/c0/17/bd/c017bd324a0bde9c9877cc230853328e.jpg" alt="Cartier">
+    <h3>Cartier</h3>
+    <p>Cartier — a luxurious fragrance of elegance, passion, and timeless charm.</p>
+    <p class="price">RS. 27,000</p>
+    <button class="cart-btn" onclick="addToCart('Cartier', 27000)">ADD TO CART</button>
+</div>
+
+<!--card 8-->
+<div class="card">
+    <img src="https://i.pinimg.com/736x/34/cd/26/34cd2632ee466c4156fcaf214e5385e6.jpg" alt="Miss Dior">
+    <h3>Miss Dior</h3>
+    <p>Dior Miss Dior — a graceful fragrance blooming with love, elegance, and beauty.</p>
+    <p class="price">RS. 32,000</p>
+    <button class="cart-btn" onclick="addToCart('Miss Dior', 32000)">ADD TO CART</button>
+</div>
+
+<!--card 9-->
+<div class="card">
+    <img src="https://i.pinimg.com/1200x/af/88/1d/af881d919d3c998c952636943eb7e005.jpg" alt="Chanel N5">
+    <h3>Chanel N°5</h3>
+    <p>Chanel N°5 — timeless elegance captured in an iconic fragrance.</p>
+    <p class="price">RS. 41,000</p>
+    <button class="cart-btn" onclick="addToCart('Chanel N°5', 41000)">ADD TO CART</button>
+</div>
+
+<!--card 10-->
+<div class="card">
+    <img src="https://i.pinimg.com/1200x/d1/8e/7b/d18e7bfc3db2602c29956a818a84cdef.jpg" alt="Chloe">
+    <h3>Chloé Eau De Parfum</h3>
+    <p>Chloé — a soft, romantic fragrance that feels effortlessly elegant and feminine.</p>
+    <p class="price">RS. 28,000</p>
+    <button class="cart-btn" onclick="addToCart('Chloé Eau De Parfum', 28000)">ADD TO CART</button>
+</div>
+
+<!--card 11-->
+<div class="card">
+    <img src="https://i.pinimg.com/736x/b0/72/69/b072699da503431630634a69edb712cf.jpg" alt="Louis Vuitton">
+    <h3>Louis Vuitton Heures D'Absence</h3>
+    <p>Louis Vuitton Heures d'Absence — a delicate, airy fragrance that evokes quiet elegance and timeless escape.</p>
+    <p class="price">RS. 70,000</p>
+    <button class="cart-btn" onclick="addToCart('Louis Vuitton Heures D\'Absence', 70000)">ADD TO CART</button>
+</div>
+
+<!--card 12-->
+<div class="card">
+    <img src="https://i.pinimg.com/1200x/31/38/5a/31385af51c44724ed4b1a128a186b398.jpg" alt="Versace Yellow">
+    <h3>Versace Yellow Diamond</h3>
+    <p>Versace Yellow Diamond — a bright, sparkling fragrance that shines with fresh elegance and pure luxury.</p>
+    <p class="price">RS. 18,500</p>
+    <button class="cart-btn" onclick="addToCart('Versace Yellow Diamond', 18500)">ADD TO CART</button>
+</div>
+
+<!--card 13-->
+<div class="card">
+    <img src="https://i.pinimg.com/1200x/96/a2/9f/96a29fd1d1e23c91f3478b36cfb21bb7.jpg" alt="Le Labo">
+    <h3>Le Labo Santal 33</h3>
+    <p>Le Labo Santal 33 — a warm, woody, and smoky scent that feels modern, bold, and effortlessly iconic.</p>
+    <p class="price">RS. 70,000</p>
+    <button class="cart-btn" onclick="addToCart('Le Labo Santal 33', 70000)">ADD TO CART</button>
+</div>
+
+<!--card 14-->
+<div class="card">
+    <img src="https://i.pinimg.com/736x/e8/db/57/e8db57ed7fed37bed4b4e95340fa6df8.jpg" alt="Mon Guerlain">
+    <h3>Guerlain Mon Guerlain</h3>
+    <p>Guerlain Mon Guerlain — a graceful fragrance of modern femininity, warmth, and soft elegance.</p>
+    <p class="price">RS. 28,000</p>
+    <button class="cart-btn" onclick="addToCart('Guerlain Mon Guerlain', 28000)">ADD TO CART</button>
+</div>
+
+<!--card 15-->
+<div class="card">
+    <img src="https://i.pinimg.com/736x/9e/3e/20/9e3e209f6ed2b7369ddbefa91731abdb.jpg" alt="Very Good Girl">
+    <h3>Carolina Herrera Very Good Girl</h3>
+    <p>Carolina Herrera Very Good Girl — a bold, playful fragrance with sweet elegance and confident charm.</p>
+    <p class="price">RS. 24,000</p>
+    <button class="cart-btn" onclick="addToCart('Carolina Herrera Very Good Girl', 24000)">ADD TO CART</button>
+</div>
+
+<!--card 16-->
+<div class="card">
+    <img src="https://i.pinimg.com/736x/af/f1/9c/aff19cb25cb2508d56ae16f48fced1a0.jpg" alt="Valentino">
+    <h3>Valentino Born In Roma</h3>
+    <p>Valentino Born in Roma — a modern, vibrant fragrance that blends elegance with bold urban energy.</p>
+    <p class="price">RS. 26,000</p>
+    <button class="cart-btn" onclick="addToCart('Valentino Born In Roma', 26000)">ADD TO CART</button>
+</div>
+       
+
+<!-- Men Perfumes Section -->
+
+<section class="perfume-section">
+    <h1 class="section-title">Men Perfumes</h1>
+    <div class="cards">
+        <!--card 1-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/4c/af/32/4caf328bfd80ee9243cad24ef9939194.jpg" alt='Paco Rabanne 1 Million'>
+            <h3>Paco Rabanne 1 Million</h3>
+            <p>Rabanne 1 Million Royal — a bold, luxurious fragrance with fresh intensity and powerful confidence.</p>
+            <p class="price">RS. 22,000</p>
+         <button class="cart-btn" onclick="addToCart('Paco Rabanne 1 Million' ,22000 )">ADD TO CART</button>
+        </div>
+
+        <!--card 2-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/93/54/e7/9354e7b5c7a985b1663c9583e4aeae09.jpg" alt="Fakhar Lattafa Gold">
+            <h3>Fakhar Lattafa Gold</h3>
+            <p>Lattafa Perfumes Fakhar Gold — a rich, elegant fragrance with warm sweetness and bold luxurious charm.</p>
+            <p class="price">RS. 4,800</p>
+            <button class="cart-btn" onclick="addToCart('Fakhar Lattafa Gold',4800 )">Add TOCART</button>
+        </div>
+
+        <!--card 3-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/1d/e4/cc/1de4cc89cc54ecbb335bc6b5205f792a.jpg" alt="Bleu de Chanel">
+            <h3>Bleu de Chanel</h3>
+            <p>Chanel Bleu de Chanel — a fresh, woody fragrance of modern masculinity, freedom, and timeless sophistication.</p>
+            <p class="price">RS. 36,000</p>
+            <button class="cart-btn" onclick="addToCart('Bleu de Chanel', 36000)">Add TO CART</button>
+        </div>
+
+        <!--card 4-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/c6/85/a9/c685a9909022cf4ac839a7bb138f0eda.jpg" alt="Dolce & Gabbana K">
+            <h3>Dolce & Gabbana K</h3>
+            <p>Dolce & Gabbana K — a confident, fresh fragrance that blends modern strength with royal elegance.</p>
+            <p class="price">RS. 22,000</p>
+            <button class="cart-btn" onclick="addToCart('Dolce & Gabbana K', 22000)">Add TO CART</button>
+        </div>
+
+        <!--card 5-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/51/e0/1c/51e01c6e530463e9955120d03ecc8839.jpg" alt="Lattafa Khamrah Qahwa">
+            <h3>Lattafa Khamrah Qahwa</h3>
+            <p>Lattafa Perfumes Khamrah Qahwa — a warm, spicy coffee-inspired fragrance that feels rich, sweet, and deeply comforting.</p>
+            <p class="price">RS. 6,800</p>
+            <button class="cart-btn" onclick="addToCart('Lattafa Khamrah Qahwa', 6800)">Add TO CART</button>
+        </div>
+
+        <!--card 6-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/b4/94/29/b49429f0fd3f12a5f4b7ed7d768f08fb.jpg" alt="Stronger With You">
+            <h3>Emporio Armani Stronger With You</h3>
+            <p>Armani Stronger With You — a warm, addictive fragrance of modern love, confidence, and sweet sensuality.</p>
+            <p class="price">RS. 26,000</p>
+            <button class="cart-btn" onclick="addToCart('Emporio Armani Stronger With You', 26000)">Add TO CART</button>
+        </div>
+
+        <!--card 7-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/8f/d0/f7/8fd0f7aa4fef27c2fa0deb1104a42a42.jpg" alt="Zara Man">
+            <h3>Fragrance World Zara Man</h3>
+            <p>Fragrance World Zara Man — a clean, modern fragrance style that feels fresh, simple, and effortlessly masculine.</p>
+            <p class="price">RS. 7,000</p>
+            <button class="cart-btn" onclick="addToCart('Fragrance World Zara Man', 7000)">Add TO CART</button>
+        </div>
+
+        <!--card 8-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/d4/5c/ed/d45ced4de4deb24dbe532ac754cb998e.jpg" alt="Qaed Al Fursan">
+            <h3>Lattafa Qaed Al Fursan</h3>
+            <p>Lattafa Perfumes Qaed Al Fursan — a bold, woody fragrance with sweet pineapple freshness and strong Arabian character.</p>
+            <p class="price">RS. 54,000</p>
+            <button class="cart-btn" onclick="addToCart('Lattafa Qaed Al Fursan', 54000)">Add TO CART</button>
+        </div>
+
+        <!--card 9-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/c4/29/3a/c4293ae7b084a56e8300b3dcb845ebfe.jpg" alt="Bad Boy">
+            <h3>Carolina Herrera Bad Boy</h3>
+            <p>Carolina Herrera Bad Boy — a daring, electrifying fragrance of duality, confidence, and modern masculinity.</p>
+            <p class="price">RS. 26,000</p>
+            <button class="cart-btn" onclick="addToCart('Carolina Herrera Bad Boy', 26000)">Add TO CART</button>
+        </div>
+
+        <!--card 10-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/d0/63/ce/d063ce172b0298eba4d41e7f7a3fd99c.jpg" alt="Lattafa Mahir">
+            <h3>Lattafa Mahir</h3>
+            <p>Lattafa Perfumes Maahir — a rich, oriental fragrance with powerful depth, warmth, and luxurious Arabian elegance.</p>
+            <p class="price">RS. 58,000</p>
+           <button class="cart-btn" onclick="addToCart('Lattafa Mahir', 58000)">Add TO CART</button>
+        </div>
+
+        <!--card 11-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/05/a7/9e/05a79e6563758e06406d9c321bbaa586.jpg" alt="Creed">
+            <h3>Creed Millésime Impérial</h3>
+            <p>Creed Millésime Impérial — a fresh, marine-inspired fragrance of refined elegance and timeless sophistication.</p>
+            <p class="price">RS. 95,000</p>
+            <button class="cart-btn" onclick="addToCart('Creed Millésime Impérial', 95000)">Add TO CART</button>
+         </div>
+
+        <!--card 12-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/96/44/90/964490bc633fc281f92bae8ba2c55f07.jpg" alt="Dior Sauvage">
+            <h3>Dior Sauvage</h3>
+            <p>Dior Sauvage — a bold, fresh fragrance of raw masculinity, freedom, and modern intensity.</p>
+            <p class="price">RS. 13,000</p>
+            <button class="cart-btn" onclick="addToCart('Dior Sauvage', 13000)">Add TO CART</button>
+          </div>
+
+        <!--card 13-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/62/48/0f/62480f47ed55262934f686b188945dd0.jpg" alt="Rayhaan Lion">
+            <h3>Rayhaan Lion</h3>
+            <p>Rayhaan Perfumes Lion — a strong, bold fragrance that feels powerful, confident, and commanding.</p>
+            <p class="price">RS. 4,500</p>
+            <button class="cart-btn" onclick="addToCart('Rayhaan Lion', 45000)">Add TO CART</button>
+         </div>
+
+        <!--card 14-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/4f/ab/e1/4fabe1bea17ae3c317f6a9de3133661e.jpg" alt="Polo">
+            <h3>Polo</h3>
+            <p>Ralph Lauren Polo — a classic, fresh fragrance that reflects sporty elegance and timeless masculinity.</p>
+            <p class="price">RS. 3,200</p>
+            <button class="cart-btn" onclick="addToCart('Polo', 32000)">Add TO CART</button>
+        </div>
+
+        <!--card 15-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/72/bd/f5/72bdf57634012967e1096e983fa86870.jpg" alt="Al Shuyukh Gold">
+            <h3>Lattafa Al Shuyukh Gold</h3>
+            <p>Lattafa Perfumes Al Shuyukh Gold — a rich, opulent fragrance with warm spices, sweetness, and royal Arabian depth.</p>
+            <p class="price">RS. 3,000</p>
+            <button class="cart-btn" onclick="addToCart('Lattafa Al Shuyukh Gold', 3000)">Add TO CART</button>
+        </div>
+
+        <!--card 16-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/73/a6/16/73a6162ad1da88c1b5a9a77504d5a3ec.jpg" alt="Phero Diamond">
+            <h3>Phero Diamond Premium</h3>
+            <p>Phero Diamond Premium — a modern, sweet-woody fragrance with a bold, attractive, and long-lasting aura.</p>
+            <p class="price">RS. 11,500</p>
+            <button class="cart-btn" onclick="addToCart('Phero Diamond Premium', 11500)">Add TO CART</button>
+        </div>
+    </div>
+    </section>
+</section>
+
+<footer>
+    <p>© 2026 Luxury Fragrance. All Rights Reserved.</p>
+</footer>
+<script src="JS Script.js"></script>
+
+</body>
+</html>
+

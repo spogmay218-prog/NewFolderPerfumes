@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Perfumes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  type="image" href="images.png">
+    
+
+</head>
+<body>
+
+<header>
+      <div class="logo-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTojyj-NbxD7GyeKh7Hktv9baVFmOz9rjQCYg&s" alt="Luxury Fragrance Logo" class="logo">
+       <h1>Women Perfumes</h1>
+
+     <!-- CART BUTTON - YAHAN LAGAO -->
+  <a href="javascript:void(0)" onclick="toggleCart()" class="cart-btn-nav">
+    🛒 Cart <span id="cartCount">0</span>
+  </a>
+</div>
+  
+    </header>
+    <nav>
+    <a href="Index.Html">Home</a>
+    <a href="WomenPerfumes.Html">Women Perfumes</a>
+    <a href="Men Perfumes.Html">Men Perfumes</a>
+    <a href="Luxury Collection.Html">Luxury Collection</a>
+    <a href="About.Html">About Us</a>
+    <a href="Contact.Html">Contact</a>
+   
+</nav>
+
+<section class="perfume-section">
+    <h1 class="section-title">Women Perfumes</h1>
+    <div class="cards">
+
+        <!--CARD 1-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/3d/0d/2b/3d0d2b03da62977a3b9856bdeca6083d.jpg" alt='My Soul 18+'>
+            <div class="card-content">
+                <h3>My Soul 18+</h3>
+                <p>My Soul 18+: A bold seductive fragrance with deep passion and unforgettable attraction.</p>
+                <span class="price">RS. 2,700</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('My Soul 18+', 2700)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 2-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/ed/78/b1/ed78b1595da0143841043b93d9b098cd.jpg" alt="Victoria's Secret Bombshell">
+            <div class="card-content">
+                <h3>Victoria's Secret Bombshell</h3>
+                <p>Victoria's Secret Bombshell: A bright fruity-floral fragrance with sparkling citrus, passion fruit, and peony that feels fresh, confident, and elegant.</p>
+                <span class="price">RS. 5,500</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('Victoria Secret Bombshell', 5500)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 3-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/91/9f/13/919f13a39515d6989fcbb797414383d7.jpg" alt="Pink Diamond Sakura">
+            <div class="card-content">
+                <h3>Pink Diamond Sakura</h3>
+                <p>Pink Diamond Sakura: A soft floral fragrance with sweet cherry blossom vibes and elegant feminine charm.</p>
+                <span class="price">RS. 4,000</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('Pink Diamond Sakura', 4000)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 4-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/7b/64/71/7b647141ae8617191f1dc6e448d62bb8.jpg" alt="J. Bloom">
+            <div class="card-content">
+                <h3>J. Bloom</h3>
+                <p>J. Bloom: A fresh floral fragrance bursting with elegance, softness, and graceful beauty.</p>
+                <span class="price">RS. 3,800</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('J. Bloom', 3800)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 5-->
+        <div class="card">
+            <img src="https://perfumegallery.pk/wp-content/uploads/2025/11/3-min-1-scaled-1-300x300.jpg" alt="Inspiro Women">
+            <div class="card-content">
+                <h3>Inspiro Women</h3>
+                <p>Inspiro Women: Bright citrus and soft florals crafted to spark confidence in every woman.</p>
+                <span class="price">RS. 6,500</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('Inspiro Women', 6500)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 6-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/ba/f9/e6/baf9e62dc874b2cbc6c7dc761e3f5b9e.jpg" alt="Gucci Flora">
+            <div class="card-content">
+                <h3>Gucci Flora</h3>
+                <p>Gucci Flora: A luxurious floral fragrance with soft jasmine, sweet blossoms, and elegant feminine charm.</p>
+                <span class="price">RS. 3,500</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('Gucci Flora', 3500)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 7-->
+        <div class="card">
+            <img src="https://perfumegallery.pk/wp-content/uploads/2025/03/download-4.jpg" alt="Active Women">
+            <div class="card-content">
+                <h3>Active Women</h3>
+                <p>Active: Crisp citrus and green notes that stay fresh from workout to workday.</p>
+                <span class="price">RS. 2,500</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('Active Women', 2500)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 8-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/79/13/5c/79135c5b7cfb3a8c257d8f74616e2c98.jpg" alt="Laverne Sense">
+            <div class="card-content">
+                <h3>Laverne Sense</h3>
+                <p>Laverne Sense: A soft elegant fragrance with fruity floral notes and a warm sensual finish.</p>
+                <span class="price">RS. 5,500</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('Laverne Sense', 5500)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 9-->
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/f8/94/01/f89401d97b0f848175ff0bbcbbccc9bd.jpg" alt="French Cancan">
+            <div class="card-content">
+                <h3>French Cancan</h3>
+                <p>French Cancan: A playful floral-fruity fragrance with sweet charm, soft elegance, and a lively Parisian vibe.</p>
+                <span class="price">RS. 6,999</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('French Cancan', 6999)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 10-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/59/61/07/596107616348e69465228a5e8a77b0a3.jpg" alt="Jean Paul Gaultier">
+            <div class="card-content">
+                <h3>Jean Paul Gaultier</h3>
+                <p>Jean Paul Gaultier Scandal: A bold sweet fragrance with honey, jasmine, and caramel notes that feels sexy, powerful, and unforgettable.</p>
+                <span class="price">RS. 7,500</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('Jean Paul Gaultier', 7500)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 11-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/25/1c/4c/251c4c74111309cbfc6d5ab46c00cc64.jpg" alt="Marly Delina">
+            <div class="card-content">
+                <h3>Marly Delina</h3>
+                <p>Delina (Parfums de Marly): A luxurious floral fragrance with juicy lychee, Turkish rose, and soft musk that feels elegant, feminine, and long-lasting.</p>
+                <span class="price">RS. 6,500</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('Marly Delina', 6500)">ADD TO CART</button>
+        </div>
+
+        <!--CARD 12-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/d9/b5/92/d9b5921186274579a666bc4af930c558.jpg" alt="Cherry Baby Sweet Touch">
+            <div class="card-content">
+                <h3>Cherry Baby Sweet Touch</h3>
+                <p>Cherry Baby Sweet Touch: A playful cherry-sweet fragrance with juicy fruity notes and soft candy-like warmth.</p>
+                <span class="price">RS. 8,500</span>
+            </div>
+            <button class="cart-btn" onclick="addToCart('Cherry Baby Sweet Touch', 8500)">ADD TO CART</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>@ 2026 Luxury Fragrance. All Rights Reserved.</p>
+  </footer>
+
+  <script src="JS Script.js"></script>
+
+</body>
+</html>

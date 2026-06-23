@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Fragrance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  type="image" href="images.png">
+    
+  </head>
+<header>
+  
+    <div class="logo-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTojyj-NbxD7GyeKh7Hktv9baVFmOz9rjQCYg&s" alt="Luxury Fragrance Logo" class="logo">
+       <h1>Luxury Fragrance</h1>
+
+         <!-- CART BUTTON - -->
+  <a href="javascript:void(0)" onclick="toggleCart()" class="cart-btn-nav">
+    🛒 Cart <span id="cartCount">0</span>
+  </a>
+</div>
+</header>
+
+<nav>
+    
+    <a href="Index.Html">Home</a>
+    <a href="Women Perfumes.Html">Women Perfumes</a>
+    <a href="Men Perfumes.Html">Men Perfumes</a>
+    <a href="Luxury Collection.Html">Luxury Collection</a>
+    <a href="About.Html">About Us</a>
+    <a href="Contact.Html">Contact</a>
+   </nav>
+
+<div class="hero-text">
+    <h1>LUXURY FRAGRANCE</h1>
+    <p>Where Elegance Meets Scent</p>
+</div>
+
+
+<section class="cards">
+    <!-- CARD 1 -->
+    <div class="card">
+        <img src="https://perfumegallery.pk/wp-content/uploads/2026/05/download-56-300x294.webp" alt="Mosaic Topaz">
+        <div class="card-content">
+            <h3>Mosaic Topaz</h3>
+            <p>One spray and the whole room goes “who just walked in"</p>
+            <span class="price">Rs. 1,600</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Mosaic Topaz', 1600)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+        <img src="https://perfumegallery.pk/wp-content/uploads/2025/10/s-l1600-10.webp" alt="Hawas Black">
+        <div class="card-content">
+            <h3>Hawas Black</h3>
+            <p>Smoky oud and amber with a dark, seductive edge.</p>
+            <span class="price">Rs. 8,500</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Hawas Black', 8500)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+        <img src="https://perfumegallery.pk/wp-content/uploads/2025/10/s-l1600-16.webp" alt="Hawas Elixir">
+        <div class="card-content">
+            <h3>Hawas Elixir</h3>
+            <p>Sweet fruity top with deep amber base — addictive, fresh, and intense.</p>
+            <span class="price">Rs. 8,500</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Hawas Elixir', 8500)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 4-->
+    <div class="card">
+        <img src="https://perfumegallery.pk/wp-content/uploads/2025/03/OIP-2025-03-19T164402.854.jpg" alt="Eternal">
+        <div class="card-content">
+            <h3>Eternal</h3>
+            <p>Deep oud and amber with a bold, woody base.</p>
+            <span class="price">Rs. 9,000</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Eternal', 9000)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 5-->
+    <div class="card">
+        <img src="https://perfumegallery.pk/wp-content/uploads/2025/10/s-l1600-13-927x1024.webp" alt="Laverne">
+        <div class="card-content">
+            <h3>Laverne</h3>
+            <p>Sweet fruity and floral blend with a warm, musky finish.</p>
+            <span class="price">Rs. 1,490</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Laverne', 1490)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="card">
+        <img src="https://perfumegallery.pk/wp-content/uploads/2025/11/OIP-48.webp" alt="Azzaro">
+        <div class="card-content">
+            <h3>Azzaro</h3>
+            <p>Spicy, woody, and seductive — made for unforgettable nights.</p>
+            <span class="price">Rs. 26,000</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Azzaro', 26000)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 7-->
+    <div class="card">
+        <img src="https://perfumegallery.pk/wp-content/uploads/2025/08/Brazilian-Tobacco-By-Ibraheem-Al-Qurashi.jpg" alt="Brazilian Tobacco">
+        <div class="card-content">
+            <h3>Brazilian Tobacco</h3>
+            <p>Warm tobacco and sweet vanilla with a rich, masculine trail.</p>
+            <span class="price">Rs. 15,500</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Brazilian Tobacco', 15500)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 8-->
+    <div class="card">
+        <img src="https://perfumegallery.pk/wp-content/uploads/2024/12/ignite.jpg" alt="Ignite Oud">
+        <div class="card-content">
+            <h3>Ignite Oud</h3>
+            <p>Deep oud and smoky notes blended for a bold, intense vibe.</p>
+            <span class="price">Rs. 11,000</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Ignite Oud', 11000)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 9-->
+    <div class="card">
+        <img src="https://perfumegallery.pk/wp-content/uploads/2024/12/OIP-15-2.jpg" alt="Summer Oud">
+        <div class="card-content">
+            <h3>Summer Oud</h3>
+            <p>Fresh citrus and soft oud — light, airy, perfect for summer.</p>
+            <span class="price">Rs. 9,000</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Summer Oud', 9000)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 10-->
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/91/ab/7b/91ab7b44a494f436bb27570de049e568.jpg" alt="Hugo Boss">
+        <div class="card-content">
+            <h3>Hugo Boss</h3>
+            <p>Modern sophisticated fragrance with fresh, woody notes that reflect confidence and style.</p>
+            <span class="price">Rs. 9,000</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Hugo Boss', 9000)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 11-->
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/71/e3/f6/71e3f6098a1085070595eaa71c8b8c1c.jpg" alt="Xerjoff Erba Pura">
+        <div class="card-content">
+            <h3>Xerjoff Erba Pura</h3>
+            <p>Luxurious fruity fragrance with sweet citrus and soft musky warmth that feels rich and elegant.</p>
+            <span class="price">Rs. 9,000</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Xerjoff Erba Pura', 9000)">ADD TO CART</button>
+    </div>
+
+    <!-- CARD 12-->
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/df/d2/0e/dfd20ed09375615d2d78b64643ae959c.jpg" alt="Amouage Interlude 53">
+        <div class="card-content">
+            <h3>Amouage Interlude 53</h3>
+            <p>Rich smoky fragrance with incense, amber, and spicy woody notes that feels deep and powerful.</p>
+            <span class="price">Rs. 9,000</span>
+        </div>
+        <button class="cart-btn" onclick="addToCart('Amouage Interlude 53', 9000)">ADD TO CART</button>
+    </div>
+
+</section>
+
+<footer>
+    <p> @ 2026 Luxury Fragrance. All Rights Reserved.</p>
+</footer>
+
+ 
+<script src="JS Script.js"></script>
+
+ </body>
+</html>
+
+ 
